@@ -1,4 +1,4 @@
-FROM golang:1.8
+FROM golang:1.8.1
 
 # system dependencies
 RUN apt-get update && apt-get -y install bzr build-essential curl git mercurial pkg-config
